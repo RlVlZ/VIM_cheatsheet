@@ -31,3 +31,8 @@ Ex : let's say I wanna delete all lines containing "#define":
 :g/pattern/norm!J
 ```
 will join to the line containing "pattern" whatever line follows it.
+
+# Sort alphabetically
+---
+Simply use the ```:sort``` command on the selection.
+sort can also take a regex as argument : lines containing the pattern will be sorted according to that pattern. Other will be sorted normally.
