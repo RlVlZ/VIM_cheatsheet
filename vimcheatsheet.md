@@ -39,6 +39,6 @@ sort can also take a regex as argument : lines containing the pattern will be so
 
 # Use groups in a search and replace
 ---
-Groups are delimited by '''\(Here is my group\)''' and can be refered to using escaped integer starting at 1 (...).
-So if I want to replace PREFIX_string_SUFIX by string I can use ''':s#PREFIX_\(\w*\)_SUFIX#\1#'''
+Groups are delimited by ```\(Here is my group\)``` and can be refered to using escaped integer starting at 1 (...).
+So if I want to replace PREFIX_string_SUFIX by string I can use ```:s#PREFIX_\(\w*\)_SUFIX#\1#```
 
